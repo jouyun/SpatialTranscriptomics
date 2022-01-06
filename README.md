@@ -1,5 +1,6 @@
 # SpatialTranscriptomics
 Code for troubleshooting, analyzing and displaying SlideSeq data
+
 "Prepare" uses the python version of SCTransform to take UMI read matrices and do dimensionality reduction and making a UMAP.  
 
 "Visualize" takes the UMAP from "Prepare" and combines with the spatial information in the SlideSeq barcode file.  Using plotly and napari one can draw on regions in
